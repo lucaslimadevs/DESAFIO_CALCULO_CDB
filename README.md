@@ -37,6 +37,6 @@ A API estará disponível em https://localhost:7252 ou Swagger https://localhost
 Abra um novo terminal e navegue até a pasta raiz do projeto (~/DESAFIO_CALCULO_CDB/calculo-cdb_UI).
 
 - npm install (para instalar as dependências do projeto)
+- ng serve (para iniciar a aplicação)
 
-Após a instalação das dependências, execute o comando ng serve para iniciar o servidor de desenvolvimento.
 A aplicação Angular estará disponível em http://localhost:4200.
