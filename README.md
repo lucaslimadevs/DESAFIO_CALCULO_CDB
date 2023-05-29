@@ -20,7 +20,7 @@ Selecione o arquivo b3_API.sln para visualizar o projeto no Visual Studio.
 | :placard: Pastas |     |
 | -------------  | --- |
 | :rocket: src         | ASP.NET Core Web API
-| :rocket: UI | APP Angular Cli 15
+| :rocket: UI | APP Angular Cli
 | :rocket: Tests         | XUnit test Project
 
 ## Configuração da API .NET Core
