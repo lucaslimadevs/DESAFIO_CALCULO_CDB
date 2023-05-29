@@ -1,0 +1,41 @@
+<div class="container my-5">
+    <div class="row justify-content-center align-items-center">
+        <div class="col-sm-6 col-md-6 col-lg-6">            
+            <h2 class="my-5">Calcular rendimentos CDB</h2>
+            <form (ngSubmit)="calcularCDB()">
+                <div class="form-group">
+                    <label for="valor">Valor R$:</label>
+                    <input type="number" class="form-control" id="valor" [(ngModel)]="valor" name="valor" required>
+                </div>
+                <div class="form-group my-2">
+                    <label for="prazo">Quantidade Meses:</label>
+                    <input type="number" class="form-control" id="prazo" [(ngModel)]="prazo" name="prazo" min="2" required>
+                </div>
+                <div class="d-flex justify-content-end">
+                    <button type="submit" class="btn btn-primary my-2">Calcular</button>
+                </div>
+            </form>            
+            <table *ngIf="resultadoBruto && resultadoLiquido" class="table table-bordered mt-3">
+                <thead class="thead-light">
+                    <tr>
+                        <th colspan="2">Rendimentos:</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Valor Bruto</td>
+                        <td class="text-right">{{ resultadoBruto | currency:'BRL':'symbol':'1.2-2' }}</td>
+                    </tr>
+                    <tr>
+                        <td>Valor Líquido</td>
+                        <td class="text-right">{{ resultadoLiquido | currency:'BRL':'symbol':'1.2-2' }}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <div *ngIf="loading" class="spinner-border text-primary" role="status">
+            <span class="sr-only"></span>
+        </div>
+    </div>
+</div>

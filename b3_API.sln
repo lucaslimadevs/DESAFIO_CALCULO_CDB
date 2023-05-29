@@ -1,0 +1,81 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "cdb_API", "cdb_API\cdb_API.csproj", "{9E41B11B-877F-4623-AB73-C915CD5E7364}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1F58FE29-8135-4DCD-9AA3-A6F200BFA016}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{6808F21D-43B6-461E-B5C6-DF5EC8160DF4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "Application\Application.csproj", "{C75B1581-4453-4019-8B6A-C173B82EAAEF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{42ADE056-4949-4F11-B5D1-A71CF6F12044}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "cdb_Test", "cdb_Test\cdb_Test.csproj", "{6E41964E-A42C-47A2-B91F-5921F46BE25D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{CF0E9DDA-C452-41D6-9A20-E4FBE6BDDA9B}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "calculo-cdb_UI", "calculo-cdb_UI\", "{287D8594-D5DB-4E61-8725-D5C18BE4100F}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_62994"
+		Debug.AspNetCompiler.PhysicalPath = "calculo-cdb_UI\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_62994\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_62994"
+		Release.AspNetCompiler.PhysicalPath = "calculo-cdb_UI\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_62994\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "62994"
+		SlnRelativePath = "calculo-cdb_UI\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E41B11B-877F-4623-AB73-C915CD5E7364}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E41B11B-877F-4623-AB73-C915CD5E7364}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E41B11B-877F-4623-AB73-C915CD5E7364}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E41B11B-877F-4623-AB73-C915CD5E7364}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6808F21D-43B6-461E-B5C6-DF5EC8160DF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6808F21D-43B6-461E-B5C6-DF5EC8160DF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6808F21D-43B6-461E-B5C6-DF5EC8160DF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6808F21D-43B6-461E-B5C6-DF5EC8160DF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C75B1581-4453-4019-8B6A-C173B82EAAEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C75B1581-4453-4019-8B6A-C173B82EAAEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C75B1581-4453-4019-8B6A-C173B82EAAEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C75B1581-4453-4019-8B6A-C173B82EAAEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E41964E-A42C-47A2-B91F-5921F46BE25D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E41964E-A42C-47A2-B91F-5921F46BE25D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E41964E-A42C-47A2-B91F-5921F46BE25D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E41964E-A42C-47A2-B91F-5921F46BE25D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{287D8594-D5DB-4E61-8725-D5C18BE4100F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{287D8594-D5DB-4E61-8725-D5C18BE4100F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{287D8594-D5DB-4E61-8725-D5C18BE4100F}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{287D8594-D5DB-4E61-8725-D5C18BE4100F}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9E41B11B-877F-4623-AB73-C915CD5E7364} = {1F58FE29-8135-4DCD-9AA3-A6F200BFA016}
+		{6808F21D-43B6-461E-B5C6-DF5EC8160DF4} = {1F58FE29-8135-4DCD-9AA3-A6F200BFA016}
+		{C75B1581-4453-4019-8B6A-C173B82EAAEF} = {1F58FE29-8135-4DCD-9AA3-A6F200BFA016}
+		{6E41964E-A42C-47A2-B91F-5921F46BE25D} = {42ADE056-4949-4F11-B5D1-A71CF6F12044}
+		{287D8594-D5DB-4E61-8725-D5C18BE4100F} = {CF0E9DDA-C452-41D6-9A20-E4FBE6BDDA9B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {00836E6D-0289-4B28-952E-9F334C8055A3}
+	EndGlobalSection
+EndGlobal
